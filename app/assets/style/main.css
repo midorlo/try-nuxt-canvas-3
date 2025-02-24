@@ -3,6 +3,31 @@
 
 @import "./animation.css";
 
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/path/to/local/Newsreader.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/path/to/local/Geist.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/path/to/local/GeistMono.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+}
+
 @theme {
   --font-newsreader: "Newsreader", serif;
   --font-geist: "Geist", sans-serif;
